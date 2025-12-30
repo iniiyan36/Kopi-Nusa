@@ -25,7 +25,7 @@
   background: rgba(37, 35, 36, 0.7); /* atau rgba(...) */
   color: white;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
-  z-index: 1000;
+  z-index: 999;
 }
 
 .logo {
@@ -389,6 +389,7 @@
     flex-direction: column;
     gap: 3rem;
     margin-bottom: 5rem;
+    align-items: flex-start;
   }
 
   /* Footer */

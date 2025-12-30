@@ -13,19 +13,15 @@
 /* Navbar */
 .navbar {
   position: fixed;
-  top: 0;
-  left: 0;
   width: 100%;
-  height: 70px;
-  margin: auto;
   padding: 1rem 7%;
+  z-index: 999;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background: rgba(37, 35, 36, 0.7); /* atau rgba(...) */
   color: white;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
-  z-index: 999;
 }
 
 .logo {
@@ -318,12 +314,13 @@
   }
 
   .list {
-    position: absolute;
-    top: 70px;
+    position: fixed;
+    top: 0;
     right: -100%;
     width: 100%;
-    height: calc(100vh - 70px);
+    height: 100vh;
     background-color: rgba(37, 35, 36, 0.95);
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -389,7 +386,7 @@
     flex-direction: column;
     gap: 3rem;
     margin-bottom: 5rem;
-    align-items: flex-start;
+    align-items: flex-start
   }
 
   /* Footer */

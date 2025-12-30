@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <title>Kopi Nusa</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar" data-aos="fade-down">
+        <h1 class="logo">Kopi Nusa</h1>
+        <ul class="list">
+            <li><a href="#beranda">Home</a></li>
+            <li><a href="#tentang">About</a></li>
+            <li><a href="#location">Gallery</a></li>
+        </ul>
+        <div class="icon">
+            <i data-feather="github"></i>
+            <i data-feather="instagram"></i>
+            <i data-feather="youtube"></i>
+        </div>
+        <div class="hamburger"><i data-feather="menu"></i></div>
+    </div>
+     <!-- Section Home -->
+    <section class="home" id="beranda">
+        <div class="hero-content" data-aos="fade-right">
+            <h1 class="headline-1">Crafted Coffee for Your Everyday<br>Moment</h1>
+            <p class="paragraph-1">Nikmati kopi pilihan dengan rasa konsisten, disangrai<br>segar, dan diseduh penuh perhatian</p>
+            <button class="btn-1">Order Now</button>
+            <button class="btn-2">Find a location</button>
+        </div>
+        <img src="img/bgcoffee.jpg">
+    </section>
+
+    <!-- Section About -->  
+     <section class="about" id="tentang">
+        <div class="preparing-content" data-aos="fade-right">
+            <div class="preparing-img">
+            <img src="img/preparing.jpg">
+            </div>
+            <div class="headline-paragraph">
+                <h1 class="headline-1">Lebih Dari Sekedar Kopi,<br>Ini Cerita Kami</h1>
+                <p class="paragraph-1">Kami meracik kopi dengan hati—dari biji pilihan petani lokal hingga<br>secangkir kopi yang menemani momen terbaikmu setiap hari.</p>
+                <button class="btn-2">Learn More</button>
+            </div>
+        </div>
+        <div class="processing-content" data-aos="fade-left">
+            <div class="headline-paragraph">
+                <h1 class="headline-1">Lebih Dari Sekedar Kopi,<br>Ini Cerita Kami</h1>
+                <p class="paragraph-1">Kami meracik kopi dengan hati—dari biji pilihan petani lokal hingga<br>secangkir kopi yang menemani momen terbaikmu setiap hari.</p>
+                <button class="btn-2">Learn More</button>
+            </div>
+            <div class="preparing-img">
+            <img src="img/process.jpg">
+            </div>
+        </div>
+     </section>
+
+     <!-- Section Gallery -->
+      <section class="gallery" id="location">
+        <div class="card" data-aos="fade-down">
+            <img src="img/card 1.jpg">
+            <img src="img/card 2.jpg">
+            <img src="img/card 3.jpg">
+            <img src="img/card 4.jpg">
+        </div>
+        <h1 class="headline-2" data-aos="fade-left">Location</h1>
+        <div class="list-loc" data-aos="fade-up">
+            <div class="loc">
+                <h2 class="headline-3">Jakarta</h2>
+                <p class="paragraph-2">Jl.Sudirman No.23<br>Kopi premium di tengah ritme kota.</p>
+            </div>
+            <div class="loc">
+                <h2 class="headline-3">Bandung</h2>
+                <p class="paragraph-2">Jl.Dago Atas No.15<br>Seduhan di udara sejuk.</p>
+            </div>
+            <div class="loc">
+                <h2 class="headline-3">Bali</h2>
+                <p class="paragraph-2">Jl.Pantai Berawa No.18<br>Kopi terbaik, momen sunset.</p>
+            </div>
+        </div>
+      </section>
+    <!-- Footer -->
+     <section class="footer">
+        <div class="logo-footer">
+            <h1 class="logo">Kopi Nusa</h1>
+            <p class="paragraph-logo">Rasa Asli Nusantara</p>
+        </div>
+        <p class="copyright">© 2024 Kopi Nusa. All rights reserved.</p>
+        <div class="icon">
+            <i data-feather="github"></i>
+            <i data-feather="instagram"></i>
+            <i data-feather="youtube"></i>
+        </div>
+     </section>
+     <!-- Feather Icon -->
+    <script>
+      feather.replace();
+    </script>
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 900,
+        once: true,
+      });
+    </script>
+</body>
+</html>
